@@ -5,6 +5,140 @@ body{
     color: white;
     overflow: hidden;
 }
+ /* tagline {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #181818;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+        }
+
+        .login-form input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 1rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            border-radius: 500px;
+            background-color: #1DB954;
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 1rem;
+            transition: background-color 0.3s;
+        }
+        
+        .login-button:hover {
+            background-color: #1ed760;
+        }
+
+        .forgot-password {
+            display: block;
+            margin-top: 1rem;
+            color: #b3b3b3;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #b3b3b3;
+            margin: 2rem 0;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #333;
+        }
+
+        .divider:not(:empty)::before {
+            margin-right: .25em;
+        }
+
+        .divider:not(:empty)::after {
+            margin-left: .25em;
+        }
+        
+        .social-login-button {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid #535353;
+            border-radius: 500px;
+            background-color: transparent;
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: border-color 0.3s;
+        }
+        
+        .social-login-button:hover {
+            border-color: #ffffff;
+        }
+
+        .social-login-button img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .signup {
+            margin-top: 2rem;
+            color: #b3b3b3;
+        }
+
+        .signup a {
+            color: #ffffff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .signup a:hover {
+            text-decoration: underline;
+        } */
+
 .main{
     display: flex;
     height: 100vh;
@@ -209,6 +343,7 @@ a{
     border-top: 1px solid white;
     opacity: 0.4;
 }
+
 .music-player{
     display: flex;
     justify-content: space-between;
@@ -227,13 +362,25 @@ a{
 }
 .content{
    display: flex;
-   
+   align-items: center;
+   padding-left: 2rem;
 }
+/* .contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px; 
+    padding: 0.5rem 0.75rem;
+} */
+
 .player{
     width: 50%;
 }
 .controls{
     width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .players-controls{
     display: flex;
