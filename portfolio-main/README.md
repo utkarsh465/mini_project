@@ -5,7 +5,7 @@ Single-page, responsive portfolio replicating the requested design and features:
 ## Quick Start
 
 1. Open `index.html` in your browser (double-click or serve with any static server).
-2. Add your resume PDF to `assets/resume/Shashank_Shekhar_Resume.pdf`.
+2. Add your resume PDF to `assets/resume/Utkarsh_Rajput_Resume.pdf`.
 3. Update profile text, skills, and projects inline in `index.html`.
 
 ## Contact Form (Working Setup)
@@ -32,7 +32,7 @@ styles.css
 script.js
 assets/
   resume/
-    Shashank_Shekhar_Resume.pdf  (add your file here)
+    Utkarsh_Rajput_Resume.pdf  (add your file here)
 ```
 
 ## Notes
