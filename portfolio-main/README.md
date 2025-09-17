@@ -1,4 +1,4 @@
-# Shashank Shekhar — Portfolio
+# Utkarsh Raj — Portfolio
 
 Single-page, responsive portfolio replicating the requested design and features: gradient layout, smooth-scrolling navigation, sections (Hero, About, Skills, Experience, Projects, Education, Services, Contact), hover animations, mobile nav, resume download, and a validated contact form.
 
